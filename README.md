@@ -4,4 +4,4 @@ Vercel host: <https://vercel.com/blue-dwarf/website-front-end>
 
 Staging URL: <https://i1.wtf>
 
-Alternate URL: <https://website-front-end.vercel.app>
+Alternate URL: <https://bluedwarfspace.vercel.app>
