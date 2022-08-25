@@ -16,6 +16,8 @@
     "astro": "^1.0.8"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.12",
+    "@fontsource/orbitron": "^4.5.9",
     "daisyui": "^2.24.0"
   }
 }
