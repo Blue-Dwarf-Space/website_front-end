@@ -87,12 +87,6 @@ module.exports = {
                     "--tab-border": "1px",
                     "--tab-radius": "0.2rem",
 
-                    "*": {
-                        "border-color": "var(--border-color) !important",
-                        "--tw-border-opacity": "1 !important",
-                        "--tw-text-opacity": "1 !important",
-                        "--tw-shadow": "0 0 0 1px var(--border-color) !important",
-                    },
                 },
             },
         ],
