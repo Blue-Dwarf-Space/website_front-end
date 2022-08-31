@@ -1,10 +1,18 @@
 ---
 import DefaultLayout from "../layouts/DefaultLayout.astro";
+import AboutNav from "../components/AboutNav.astro";
 ---
+
 
 <DefaultLayout title="About Us">
     <main>
         <h1>About Blue Dwarf Space</h1>
+        <div class="tabs">
+            <a class="tab tab-bordered">What</a> 
+            <a class="tab tab-bordered tab-active">Why</a> 
+            <a class="tab tab-bordered">The problem</a>
+            <a class="tab tab-bordered">The solution</a>
+          </div>
 
         <h2>What are we doing?</h2>
         <p>
@@ -39,10 +47,15 @@ import DefaultLayout from "../layouts/DefaultLayout.astro";
         </p>
         <p>This is about ensuring our future in space.</p>
         
+        <h2>Gaining access to perform space activities can be a complex process</h2>
+        
+        <p>information about the complexity of the process</p>
+        <p><img src="/assets/blue_dwarf_space_notext_logo.png" alt="blue dwarf logo" class="w-52 mx-auto mt-24" /></p>
         <p>
             Leave the tedium and confusion to us; we see some red tape and we
             want to paint it black.
         </p>
+
     </main>
 </DefaultLayout>
 

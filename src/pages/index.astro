@@ -3,33 +3,41 @@ import DefaultLayout from '../layouts/DefaultLayout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<DefaultLayout title="Welcome to Astro.">
+<DefaultLayout title="Welcome to Blue Dwarf.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			Check out the <code>src/pages</code> directory to get started.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+		<h1><span class="text-gradient">Welcome to Blue Dwarf Space</span></h1>
+		<p>
+			Space has always been a source of inspiration and hope. Boundless to an impossible extent, it holds more potential than any of us could hope to imagine. But imagine we do. 
+		</p>
+		<p>
+			At Blue Dwarf, we are not space engineers. We are not building space craft or components. We work with you to get your permits to perform space activities. We are navigating the complex trails that hold back innovation, making it simpler for amazing people to do amazing things in a safe and sustainable manner. 
+		</p>
+		<p>
+			We create clarity from confusion. We simplify the mess. We recombobulate.	
+		</p>
+		<p>
+			Let’s make space truly reachable to any who want to imagine. Let’s imagine together. 
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
+				href="/mission"
+				title="Our mission"
+				body="What we do and why we do it"
 			/>
 			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
+				href="/product"
+				title="Our product"
+				body="Forget reinventing the wheel, jump into our teleporter"
 			/>
 			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
+				href="/about"
+				title="Our team"
+				body="Learn more about the people of Blue Dwarf Space"
 			/>
 			<Card
-				href="https://astro.build/chat/"
-				title="Chat"
-				body="Come say hi to our amazing Discord community. ❤️"
+				href="https://radio.bluedwarf.space"
+				title="Blue Dwarf Space Station"
+				body="Chill programming beats. More content coming soon ❤️"
 			/>
 		</ul>
 	</main>
@@ -37,7 +45,7 @@ import Card from '../components/Card.astro';
 
 <style>
 	:root {
-		--astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
+		--astro-gradient: linear-gradient(0deg, #eeeeee,#f1c40f, #414bb2, #9510ac, #00cc66, #d90368, #db663a, #eeeeee);
 	}
 
 	h1 {
@@ -74,7 +82,7 @@ import Card from '../components/Card.astro';
 	.instructions {
 		line-height: 1.6;
 		margin: 1rem 0;
-		background: #4f39fa;
+		background: #000d26;
 		padding: 1rem;
 		border-radius: 0.4rem;
 		color: var(--color-bg);
