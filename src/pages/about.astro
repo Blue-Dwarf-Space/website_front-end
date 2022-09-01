@@ -3,9 +3,8 @@ import DefaultLayout from "../layouts/DefaultLayout.astro";
 import Content from "../components/Content.astro";
 ---
 
-<DefaultLayout title="About Blue Dwarf Space">
+<DefaultLayout title="About">
     <main>
-        <h1><span class="text-gradient">About Blue Dwarf Space</span></h1>
 <!-- suggested content to be later exported to file that feeds this sucker -->        
     <ul class="w-full steps">
         <li class="step step-error">What</li> 
@@ -18,28 +17,38 @@ import Content from "../components/Content.astro";
 	<Content 
 		header="Why?"
 		subheader="Because it's hard. Really, really hard."
+		imageLoc="/assets/question_marks_logo.svg"
+		imageAlt="lots of question marks"
+		para1="so many reasons"
+		para2="let me count the ways"
+		para3="poor Zak"
+	/>
+	<Content 
+		header="What's the problem?"
+		subheader="Because it's hard. Really, really hard."
 		imageLoc="/assets/current_workflow.svg"
 		imageAlt="convoluted mess demonstrating difficult workflow, hybrid of gears and spaghetti"
 		para1="the current workflow sucks really bad"
 		para2="prone to repetition and failure"
-		para3="We believe there is a better way"
+		para3="we believe there is a better way"
 	/>
+
 	<Content 
-		header="What?"
+		header="What are we doing about it?"
 		subheader="Why reinvent the wheel when you can jump into our teleporter?"
 		imageLoc="/assets/new_workflow.svg"
 		imageAlt="Smoother workflow, simplified and streamlined"
 		para1="let us do all the hard work for you"
 		para2="single point of contact, data entry, failure, resolution"
-		para3="Change looks like us"
+		para3="change looks like us"
 	/>
 	<Content 
 		header="Who?"
 		subheader="We're super nice"
 		imageLoc="/assets/founders.svg"
 		imageAlt="into bubbles in the shape of the starship enterprise"
-		para1="We know what we are doing"
-		para2="We're good at it"
+		para1="we know what we are doing"
+		para2="we're good at it"
 		para3="you should trust us"
 	/>
 
@@ -60,13 +69,11 @@ import Content from "../components/Content.astro";
         <img src="/assets/traction.svg" />
     </div>
     
-	<div>
-		<h2>What are we doing?</h2>
-		<p>
-			Building a platform to guide you through the permit application 
-			process for your space mission.
-		</p>
-	</div>
+	<Content 
+		header="What are we doing?"
+		para1="Building a platform to guide you through the permit application process for your space mission"
+	/>
+
 	<div>
 		<h2>Why?</h2>
 		<p>
