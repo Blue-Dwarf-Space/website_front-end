@@ -1,64 +1,128 @@
 ---
 import DefaultLayout from "../layouts/DefaultLayout.astro";
-import AboutNav from "../components/AboutNav.astro";
 ---
 
-
-<DefaultLayout title="About Us">
+<DefaultLayout title="About Blue Dwarf Space">
     <main>
-        <h1>About Blue Dwarf Space</h1>
-        <div class="tabs">
-            <a class="tab tab-bordered">What</a> 
-            <a class="tab tab-bordered tab-active">Why</a> 
-            <a class="tab tab-bordered">The problem</a>
-            <a class="tab tab-bordered">The solution</a>
-          </div>
+        <h1><span class="text-gradient">About Blue Dwarf Space</span></h1>
+<!-- suggested content to be later exported to file that feeds this sucker -->        
+    <ul class="w-full steps">
+        <li class="step step-error">What</li> 
+        <li class="step step-success">Why</li> 
+        <li class="step step-secondary">Problem</li> 
+        <li class="step step-accent">Current workflow</li>
+        <li class="step step-info">Solution</li>
+    </ul>
 
-        <h2>What are we doing?</h2>
-        <p>
-            Building a platform to guide you through the permit application 
-            process for your space mission.
-        </p>
-        <h2>Why?</h2>
-        <p>
-            Australia wants to build sovereign space capability, but we keep 
-            hearing from the space sector how difficult and expensive it is to 
-            gain permits to perform space activities. Far from a simple 
-            application, there is a whole hierarchy of documentation required 
-            before you even get to that part. Some of these documents are 
-            dependent on others, requiring special attention to the order and 
-            timing of applications, resulting in further costs (financial and 
-            time). There are no guarantees the final application will contain 
-            all required information, requiring a revisit to some aspects of 
-            the earlier works. There is a significant pain point involving 
-            repetition of effort, much confusion, time, and cost.
-        </p>
-        <p>We can simplify it all</p>
-        <h2>So why are *we* doing it?</h2>
-        <p>
-            Because it is hard, confusing, costly, and time consuming. These 
-            things can be a block to incredible innovation...
-        </p>
-        <p><b>BUT...</b></p>
-        <p>
-            Safety is important. We need to ensure our access to space is 
-            sustainable, done in a manner that doesn't destroy launch capabilities 
-            for everyone. 
-        </p>
-        <p>This is about ensuring our future in space.</p>
-        
-        <h2>Gaining access to perform space activities can be a complex process</h2>
-        
-        <p>information about the complexity of the process</p>
-        <p><img src="/assets/blue_dwarf_space_notext_logo.png" alt="blue dwarf logo" class="w-52 mx-auto mt-24" /></p>
-        <p>
-            Leave the tedium and confusion to us; we see some red tape and we
-            want to paint it black.
-        </p>
+    <div>
+        <img src="../public/assets/current_workflow.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/new_workflow.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/opportunity_agency.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/principles.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/founders.svg" />
+    </div>
+	<div>
+        <img src="../public/assets/moon_logo.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/roadmap.svg" />
+    </div>
+    <div>
+        <img src="../public/assets/traction.svg" />
+    </div>
+    
+	<div>
+		<h2>What are we doing?</h2>
+		<p>
+			Building a platform to guide you through the permit application 
+			process for your space mission.
+		</p>
+	</div>
+	<div>
+		<h2>Why?</h2>
+		<p>
+			Australia wants to build sovereign space capability, but we keep 
+			hearing from the space sector how difficult and expensive it is to 
+			gain permits to perform space activities. Far from a simple 
+			application, there is a whole hierarchy of documentation required 
+			before you even get to that part. Some of these documents are 
+			dependent on others, requiring special attention to the order and 
+			timing of applications, resulting in further costs (financial and 
+			time). There are no guarantees the final application will contain 
+			all required information, requiring a revisit to some aspects of 
+			the earlier works. There is a significant pain point involving 
+			repetition of effort, much confusion, time, and cost.
+		</p>
+		<p>We can simplify it all</p>        
+	</div>
+	<div>
+		<h2>So why are *we* doing it?</h2>
+		<p>
+			Because it is hard, confusing, costly, and time consuming. These 
+			things can be a block to incredible innovation...
+		</p>
+		<p><b>BUT...</b></p>
+		<p>
+			Safety is important. We need to ensure our access to space is 
+			sustainable, done in a manner that doesn't destroy launch capabilities 
+			for everyone. 
+		</p>
+		<p>This is about ensuring our future in space.</p>
 
+	</div>
+	<div>
+		<h2>Gaining access to perform space activities can be a complex process</h2>
+		
+		<p>information about the complexity of the process</p>
+		<p>
+			Leave the tedium and confusion to us; we see some red tape and we
+			want to paint it black.
+		</p>
+	</div>
     </main>
 </DefaultLayout>
 
 <style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #eeeeee,#f1c40f, #414bb2, #9510ac, #00cc66, #d90368, #db663a, #eeeeee);
+	}
 
+	h1 {
+		margin: 2rem 0;
+	}
+
+	main {
+		margin: auto;
+		padding: 1em;
+		max-width: 60ch;
+	}
+
+	.text-gradient {
+		font-weight: 900;
+		background-image: var(--astro-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 4s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
 </style>
