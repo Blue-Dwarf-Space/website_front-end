@@ -1,5 +1,6 @@
 ---
 import DefaultLayout from "../layouts/DefaultLayout.astro";
+import Content from "../components/Content.astro";
 ---
 
 <DefaultLayout title="About Blue Dwarf Space">
@@ -14,29 +15,49 @@ import DefaultLayout from "../layouts/DefaultLayout.astro";
         <li class="step step-info">Solution</li>
     </ul>
 
-    <div>
-        <img src="../public/assets/current_workflow.svg" />
+	<Content 
+		header="Why?"
+		subheader="Because it's hard. Really, really hard."
+		imageLoc="/assets/current_workflow.svg"
+		imageAlt="convoluted mess demonstrating difficult workflow, hybrid of gears and spaghetti"
+		para1="the current workflow sucks really bad"
+		para2="prone to repetition and failure"
+		para3="We believe there is a better way"
+	/>
+	<Content 
+		header="What?"
+		subheader="Why reinvent the wheel when you can jump into our teleporter?"
+		imageLoc="/assets/new_workflow.svg"
+		imageAlt="Smoother workflow, simplified and streamlined"
+		para1="let us do all the hard work for you"
+		para2="single point of contact, data entry, failure, resolution"
+		para3="Change looks like us"
+	/>
+	<Content 
+		header="Who?"
+		subheader="We're super nice"
+		imageLoc="/assets/founders.svg"
+		imageAlt="into bubbles in the shape of the starship enterprise"
+		para1="We know what we are doing"
+		para2="We're good at it"
+		para3="you should trust us"
+	/>
+
+
+	<div>
+        <img src="/assets/opportunity_agency.svg" />
     </div>
     <div>
-        <img src="../public/assets/new_workflow.svg" />
-    </div>
-    <div>
-        <img src="../public/assets/opportunity_agency.svg" />
-    </div>
-    <div>
-        <img src="../public/assets/principles.svg" />
-    </div>
-    <div>
-        <img src="../public/assets/founders.svg" />
+        <img src="/assets/principles.svg" />
     </div>
 	<div>
-        <img src="../public/assets/moon_logo.svg" />
+        <img src="/assets/moon_logo.svg" />
     </div>
     <div>
-        <img src="../public/assets/roadmap.svg" />
+        <img src="/assets/roadmap.svg" />
     </div>
     <div>
-        <img src="../public/assets/traction.svg" />
+        <img src="/assets/traction.svg" />
     </div>
     
 	<div>
