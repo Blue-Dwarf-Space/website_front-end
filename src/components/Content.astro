@@ -1,8 +1,8 @@
 ---
 export interface Props {
-	header?: string;
-	subheader?: string;
-	imageLoc?: string;
+	  header?: string;
+	  subheader?: string;
+	  imageLoc?: string;
     imageAlt?: string;
     para1?: string;
     para2?: string;
@@ -16,7 +16,7 @@ const { header, subheader, imageLoc, imageAlt, para1, para2, para3 } = Astro.pro
     <div class="content-text">
         <h1>{header}</h1>
         <h2>{subheader}</h2>
-        <img src={imageLoc} alt={imageAlt} />
+        <img class="mx-auto" src={imageLoc} alt={imageAlt} />
         <p>{para1}</p>
         <p>{para2}</p>
         <p>{para3}</p>
