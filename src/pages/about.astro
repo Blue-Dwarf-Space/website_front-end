@@ -7,12 +7,14 @@ import Content from "../components/Content.astro";
     <main>
 <!-- suggested content to be later exported to file that feeds this sucker -->        
     <ul class="w-full steps">
-        <li class="step step-error">What</li> 
-        <li class="step step-success">Why</li> 
-        <li class="step step-secondary">Problem</li> 
-        <li class="step step-accent">Current workflow</li>
-        <li class="step step-info">Solution</li>
+        <li class="step step-error">Project</li> 
+        <li class="step step-success">Team</li> 
+        <li class="step step-secondary">Beliefs</li> 
+        <li class="step step-accent">Plans</li>
+        <li class="step step-info">Needs</li>
     </ul>
+
+	<h1>Project</h1>
 
 	<Content 
 		header="Gaining a permit to perform space activities is really complex"
@@ -47,8 +49,9 @@ import Content from "../components/Content.astro";
 		para2="single point of contact, data entry, failure, resolution"
 		para3="change looks like us"
 	/>
+	<h1>Team</h1>
 	<Content 
-		header="Who?"
+		header="Our founders"
 		subheader="We're super nice"
 		imageLoc="/assets/founders.svg"
 		imageAlt="into bubbles in the shape of the starship enterprise"
@@ -57,6 +60,17 @@ import Content from "../components/Content.astro";
 		para3="you should trust us"
 	/>
 
+	<h1>Beliefs</h1>
+
+
+	<h1>Plans</h1>
+
+
+	<h1>Needs</h1>
+	<Content 
+		header="Get involved"
+		subheader="For us to succeed, we need you"
+	/>
 
 	<div>
         <img src="/assets/opportunity_agency.svg" />
@@ -132,11 +146,11 @@ import Content from "../components/Content.astro";
 		margin: 2rem 0;
 	}
 
-	main {
+	/* main {
 		margin: auto;
 		padding: 1em;
 		max-width: 60ch;
-	}
+	} */
 
 	.text-gradient {
 		font-weight: 900;
