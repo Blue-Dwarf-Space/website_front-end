@@ -1,11 +1,19 @@
 ---
 import DefaultLayout from "../layouts/DefaultLayout.astro";
+import Content from "../components/Content.astro";
 ---
 
 <DefaultLayout title="Our mission">
     <main>
-        <h1>Our mission</h1>
-        <p>Our mission is to make space reachable to all by fundamentally changing industry processes to create a frictionless path by removing the red tape, while supporting a truly sustainable space sector.</p>
+        <Content 
+            header="Our mission is to make space reachable to all by fundamentally changing industry processes to create a frictionless path by removing the red tape, while supporting a truly sustainable space sector."
+            imageLoc="/assets/opportunity_agency.svg"
+            imageAlt="AI generated rocket with inspirational writing"
+            para1="this is some text giving information about our mission"
+        />
+
+        
+        <p></p>
     </main>
 </DefaultLayout>
 
