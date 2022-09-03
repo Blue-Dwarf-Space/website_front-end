@@ -1,0 +1,32 @@
+---
+import DefaultLayout from "../../layouts/DefaultLayout.astro";
+import Content from "../../components/Content.astro";
+import SvelteTest from "../../components/SvelteTest.svelte";
+
+import MessageTest from "../../components/about/MessageTest.svelte";
+
+---
+
+<DefaultLayout title="Test">
+    <main>
+        <!-- <Content 
+            header="trying sending messages between svelte components"
+            subheader="wish me luck"
+        />
+
+        <MessageTest />
+
+
+
+        <Content 
+            header="Testing tabs using svelte components"
+            subheader="wish me luck"
+            para1="svelte schtuff coming right up"
+        /> -->
+        <SvelteTest />
+    </main>
+</DefaultLayout>
+
+<style>
+
+</style>
