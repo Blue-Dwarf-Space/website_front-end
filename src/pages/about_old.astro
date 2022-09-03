@@ -1,0 +1,184 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+import Content from "../components/Content.astro";
+---
+
+<DefaultLayout title="About">
+    <main>
+<!-- suggested content to be later exported to file that feeds this sucker -->        
+    <ul class="w-full steps">
+        <li class="step step-error">
+			<div><span>Project</span></div>
+			<div><span>project content</span></div>
+		</li> 
+        <li class="step step-success">
+			<div><span>Team</span></div>
+			<div><span>Team Content</span></div>
+		</li> 
+        <li class="step step-secondary">
+			<div><span>Beliefs</span></div>
+			<div><span>Beliefs Content</span></div>
+		</li> 
+        <li class="step step-accent">Plans</li>
+        <li class="step step-info">Needs</li>
+    </ul>
+
+	<h1>Project</h1>
+
+	<Content 
+		header="Gaining a permit to perform space activities is really complex"
+		subheader="Navigating the regulatory burden is a barrier to entry"
+		imageLoc="/assets/question_marks_logo.svg"
+		imageAlt="lots of question marks"
+		para1="The process differs in accordance with mission parameters, and can be confusing, time consuming, and expensive."
+		para2="There are many dependencies and pre-requisites, and many of these also have pre-requisites, forming a hierarchy of dependencies that, in and of itself, can be difficult to discover."
+		para3="Much of the work requires third party suppliers to confirm or certify requirements."
+	/>
+	<Content 
+		header="There is no clean, common solution"
+		subheader="The current workflow involves multiple iterative processes that are vulnerable to repetition and failure."
+		imageLoc="/assets/current_workflow.svg"
+		imageAlt="convoluted mess demonstrating difficult workflow, hybrid of gears and spaghetti"
+		para1="This creates an industry pain point where there is a perceived imbalance between innovation and regulation."
+		para2="We believe there is a better way."
+	/>
+	<Content 
+		header="Why is the regulatory burden so high?"
+		subheader="Because it needs to be"
+		para1="Regulations provide safety and security to ensure that what we do in space is sustainable, and in the best interests of people, property, and planet/s (or other celestial bodies!)."
+		para2="To ease the burden on space companies, you can either reduce these safeties, or you can make them more user friendly."
+		para3="We aren't trying to reduce or bypass these safeties. We are navigating complex pathways and workflows on behalf of our clients."
+	/>
+	<Content 
+		header="Regulation navigation as a service"
+		subheader="Why reinvent the wheel when you can jump into our teleporter?"
+		imageLoc="/assets/new_workflow.svg"
+		imageAlt="Smoother workflow, simplified and streamlined"
+		para1="let us do all the hard work for you"
+		para2="single point of contact, data entry, failure, resolution"
+		para3="change looks like us"
+	/>
+	<h1>Team</h1>
+	<Content 
+		header="Our founders"
+		subheader="We're super nice"
+		imageLoc="/assets/founders.svg"
+		imageAlt="into bubbles in the shape of the starship enterprise"
+		para1="we know what we are doing"
+		para2="we're good at it"
+		para3="you should trust us"
+	/>
+
+	<h1>Beliefs</h1>
+
+
+	<h1>Plans</h1>
+
+
+	<h1>Needs</h1>
+	<Content 
+		header="Get involved"
+		subheader="For us to succeed, we need you"
+	/>
+
+	<div>
+        <img src="/assets/opportunity_agency.svg" />
+    </div>
+    <div>
+        <img src="/assets/principles.svg" />
+    </div>
+	<div>
+        <img src="/assets/moon_logo.svg" />
+    </div>
+    <div>
+        <img src="/assets/roadmap.svg" />
+    </div>
+    <div>
+        <img src="/assets/traction.svg" />
+    </div>
+    
+	<Content 
+		header="What are we doing?"
+		para1="Building a platform to guide you through the permit application process for your space mission"
+	/>
+
+	<div>
+		<h2>Why?</h2>
+		<p>
+			Australia wants to build sovereign space capability, but we keep 
+			hearing from the space sector how difficult and expensive it is to 
+			gain permits to perform space activities. Far from a simple 
+			application, there is a whole hierarchy of documentation required 
+			before you even get to that part. Some of these documents are 
+			dependent on others, requiring special attention to the order and 
+			timing of applications, resulting in further costs (financial and 
+			time). There are no guarantees the final application will contain 
+			all required information, requiring a revisit to some aspects of 
+			the earlier works. There is a significant pain point involving 
+			repetition of effort, much confusion, time, and cost.
+		</p>
+		<p>We can simplify it all</p>        
+	</div>
+	<div>
+		<h2>So why are *we* doing it?</h2>
+		<p>
+			Because it is hard, confusing, costly, and time consuming. These 
+			things can be a block to incredible innovation...
+		</p>
+		<p><b>BUT...</b></p>
+		<p>
+			Safety is important. We need to ensure our access to space is 
+			sustainable, done in a manner that doesn't destroy launch capabilities 
+			for everyone. 
+		</p>
+		<p>This is about ensuring our future in space.</p>
+
+	</div>
+	<div>
+		<h2>Gaining access to perform space activities can be a complex process</h2>
+		
+		<p>information about the complexity of the process</p>
+		<p>
+			Leave the tedium and confusion to us; we see some red tape and we
+			want to paint it black.
+		</p>
+	</div>
+    </main>
+</DefaultLayout>
+
+<style>
+	:root {
+		--astro-gradient: linear-gradient(0deg, #eeeeee,#f1c40f, #414bb2, #9510ac, #00cc66, #d90368, #db663a, #eeeeee);
+	}
+
+	h1 {
+		margin: 2rem 0;
+	}
+
+	/* main {
+		margin: auto;
+		padding: 1em;
+		max-width: 60ch;
+	} */
+
+	.text-gradient {
+		font-weight: 900;
+		background-image: var(--astro-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 100% 200%;
+		background-position-y: 100%;
+		border-radius: 0.4rem;
+		animation: pulse 4s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		0%,
+		100% {
+			background-position-y: 0%;
+		}
+		50% {
+			background-position-y: 80%;
+		}
+	}
+</style>

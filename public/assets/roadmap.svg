@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="152.66364mm"
-   height="70.753548mm"
-   viewBox="0 0 152.66363 70.75355"
+   width="928.42358"
+   height="430.28751"
+   viewBox="0 0 245.6454 113.8469"
    version="1.1"
    id="svg24884"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
@@ -28,14 +28,15 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.38885732"
-     inkscape:cx="298.30993"
-     inkscape:cy="432.03507"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="473.18127"
+     inkscape:cy="516.8991"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-3848"
+     inkscape:window-y="-1088"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     units="px" />
   <defs
      id="defs24881">
     <clipPath
@@ -1866,10 +1867,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(41.597333,-114.98397)">
+     transform="translate(88.088153,-93.437392)">
     <g
        id="g233828"
-       transform="matrix(0.1338424,0,0,0.1338424,-568.99275,-898.2707)"
+       transform="matrix(0.21536084,0,0,0.21536084,-936.70055,-1536.9531)"
        inkscape:export-filename="C:\Users\kelly\Dropbox\Derek\Derek Kelly\bluedwarf\imagery\roadmap_background.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300">
@@ -1915,11 +1916,11 @@
            y="0"><tspan
              x="20077.302"
              y="4073.4454"
-             id="tspan36617">1.
+             id="tspan2112">1.
 </tspan><tspan
              x="19801.015"
              y="4255.8453"
-             id="tspan36619">Prepare</tspan></text>
+             id="tspan2114">Prepare</tspan></text>
       </g>
       <g
          id="g44387"
@@ -1939,11 +1940,11 @@
            y="0"><tspan
              x="20060.982"
              y="4073.4454"
-             id="tspan36621">2.
+             id="tspan2116">2.
 </tspan><tspan
              x="19851.606"
              y="4255.8453"
-             id="tspan36623">Create</tspan></text>
+             id="tspan2118">Create</tspan></text>
       </g>
       <g
          id="g44395"
@@ -1963,11 +1964,11 @@
            y="0"><tspan
              x="20062.806"
              y="4073.4454"
-             id="tspan36625">3.
+             id="tspan2120">3.
 </tspan><tspan
              x="19820.79"
              y="4255.8453"
-             id="tspan36627">Engage</tspan></text>
+             id="tspan2122">Engage</tspan></text>
       </g>
       <g
          id="g44403"
@@ -1987,11 +1988,11 @@
            y="0"><tspan
              x="20058.966"
              y="4073.4454"
-             id="tspan36629">4.
+             id="tspan2124">4.
 </tspan><tspan
              x="19838.07"
              y="4255.8453"
-             id="tspan36631">Extend</tspan></text>
+             id="tspan2126">Extend</tspan></text>
       </g>
       <text
          xml:space="preserve"
@@ -2002,11 +2003,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36633">User 
+           id="tspan2128">User 
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36635">research</tspan></text>
+           id="tspan2130">research</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,243.94629,186.90528)"
@@ -2016,11 +2017,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36637">Manual
+           id="tspan2132">Manual
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36639">process</tspan></text>
+           id="tspan2134">process</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,360.27764,186.90528)"
@@ -2030,11 +2031,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36641">Develop
+           id="tspan2136">Develop
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36643">partnerships</tspan></text>
+           id="tspan2138">partnerships</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,452.4684,187.88972)"
@@ -2044,11 +2045,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36645">Application
+           id="tspan2140">Application
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36647">release</tspan></text>
+           id="tspan2142">release</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,539.28481,186.73217)"
@@ -2058,11 +2059,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36649">Automate
+           id="tspan2144">Automate
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36651">components</tspan></text>
+           id="tspan2146">components</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,637.40284,186.73217)"
@@ -2072,11 +2073,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36653">Automate
+           id="tspan2148">Automate
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36655">partners</tspan></text>
+           id="tspan2150">partners</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,850.34804,186.90528)"
@@ -2086,11 +2087,11 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36657">Further
+           id="tspan2152">Further
 </tspan><tspan
            x="14504.688"
            y="29089.62"
-           id="tspan36659">development</tspan></text>
+           id="tspan2154">development</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,978.5056,193.37259)"
@@ -2100,7 +2101,7 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36661">Expansion</tspan></text>
+           id="tspan2156">Expansion</tspan></text>
       <g
          id="g197642"
          transform="translate(0,2.1166667)">
@@ -2118,9 +2119,9 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect105160)"><tspan
              x="18792.893"
              y="30616.181"
-             id="tspan36665"><tspan
+             id="tspan2160"><tspan
                style="fill:#ffffff"
-               id="tspan36663">simultaneous workflow</tspan></tspan></text>
+               id="tspan2158">simultaneous workflow</tspan></tspan></text>
       </g>
       <g
          id="g199394">
@@ -2140,26 +2141,26 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36669"><tspan
+               id="tspan2164"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36667">Identify stakeholders
+                 id="tspan2162">Identify stakeholders
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36673"><tspan
+               id="tspan2168"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36671">Understand industry pain points
+                 id="tspan2166">Understand industry pain points
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36677"><tspan
+               id="tspan2172"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36675">Properly define the problem to </tspan></tspan><tspan
+                 id="tspan2170">Properly define the problem to </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36681"><tspan
+               id="tspan2176"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36679">properly define the solution</tspan></tspan></text>
+                 id="tspan2174">properly define the solution</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="path111863"
@@ -2198,39 +2199,39 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36685"><tspan
+               id="tspan2180"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36683">Identify potential
+                 id="tspan2178">Identify potential
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36689"><tspan
+               id="tspan2184"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36687">clients
+                 id="tspan2182">clients
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36693"><tspan
+               id="tspan2188"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36691">Offer manual service
+                 id="tspan2186">Offer manual service
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36697"><tspan
+               id="tspan2192"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36695">Understand current
+                 id="tspan2190">Understand current
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36701"><tspan
+               id="tspan2196"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36699">process
+                 id="tspan2194">process
 </tspan></tspan><tspan
                x="15206.25"
                y="29236.595"
-               id="tspan36705"><tspan
+               id="tspan2200"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36703">Customer xp workshop</tspan></tspan></text>
+                 id="tspan2198">Customer xp workshop</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle128615"
@@ -2264,9 +2265,9 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36709"><tspan
+               id="tspan2204"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36707">Team development</tspan></tspan></text>
+                 id="tspan2202">Team development</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle459657"
@@ -2293,39 +2294,39 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36713"><tspan
+               id="tspan2208"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36711">Work with industry and government to streamline 
+                 id="tspan2206">Work with industry and government to streamline 
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36717"><tspan
+               id="tspan2212"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36715">process and make repeatable
+                 id="tspan2210">process and make repeatable
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36721"><tspan
+               id="tspan2216"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36719">Develop partnerships with providers of required 
+                 id="tspan2214">Develop partnerships with providers of required 
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36725"><tspan
+               id="tspan2220"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36723">third-party materials
+                 id="tspan2218">third-party materials
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36729"><tspan
+               id="tspan2224"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36727">Generate mutually beneficial pathways of information 
+                 id="tspan2222">Generate mutually beneficial pathways of information 
 </tspan></tspan><tspan
                x="15206.25"
                y="29236.595"
-               id="tspan36733"><tspan
+               id="tspan2228"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36731">flow</tspan></tspan></text>
+                 id="tspan2226">flow</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle131159"
@@ -2364,39 +2365,39 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36737"><tspan
+               id="tspan2232"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36735">Modular
+                 id="tspan2230">Modular
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36741"><tspan
+               id="tspan2236"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36739">Add on and 
+                 id="tspan2234">Add on and 
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36745"><tspan
+               id="tspan2240"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36743">release as it 
+                 id="tspan2238">release as it 
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36749"><tspan
+               id="tspan2244"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36747">comes available
+                 id="tspan2242">comes available
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36753"><tspan
+               id="tspan2248"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36751">Build up to
+                 id="tspan2246">Build up to
 </tspan></tspan><tspan
                x="15206.25"
                y="29236.595"
-               id="tspan36757"><tspan
+               id="tspan2252"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36755">whole offering</tspan></tspan></text>
+                 id="tspan2250">whole offering</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle133621"
@@ -2438,27 +2439,27 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36761"><tspan
+               id="tspan2256"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36759">Overseas payload permits
+                 id="tspan2254">Overseas payload permits
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36765"><tspan
+               id="tspan2260"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36763">Debris mitigation strategy
+                 id="tspan2258">Debris mitigation strategy
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36769"><tspan
+               id="tspan2264"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36767">List requirements for other 
+                 id="tspan2262">List requirements for other 
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36773"><tspan
+               id="tspan2268"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36771">permit types</tspan></tspan></text>
+                 id="tspan2266">permit types</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle137069"
@@ -2496,27 +2497,27 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36777"><tspan
+               id="tspan2272"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36775">Assist partners with automation to
+                 id="tspan2270">Assist partners with automation to
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36781"><tspan
+               id="tspan2276"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36779">expediate data flows and processing
+                 id="tspan2274">expediate data flows and processing
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36785"><tspan
+               id="tspan2280"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36783">External APIs
+                 id="tspan2278">External APIs
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36789"><tspan
+               id="tspan2284"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36787">Internal processes</tspan></tspan></text>
+                 id="tspan2282">Internal processes</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle144607"
@@ -2555,51 +2556,51 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36793"><tspan
+               id="tspan2288"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36791">Data checking of
+                 id="tspan2286">Data checking of
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36797"><tspan
+               id="tspan2292"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36795">client materials
+                 id="tspan2290">client materials
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36801"><tspan
+               id="tspan2296"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36799">prior to submission
+                 id="tspan2294">prior to submission
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36805"><tspan
+               id="tspan2300"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36803">Auto-generate
+                 id="tspan2298">Auto-generate
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36809"><tspan
+               id="tspan2304"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36807">reports to clients
+                 id="tspan2302">reports to clients
 </tspan></tspan><tspan
                x="15206.25"
                y="29236.595"
-               id="tspan36813"><tspan
+               id="tspan2308"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36811">Auto-generate
+                 id="tspan2306">Auto-generate
 </tspan></tspan><tspan
                x="15206.25"
                y="29288.435"
-               id="tspan36817"><tspan
+               id="tspan2312"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36815">information and
+                 id="tspan2310">information and
 </tspan></tspan><tspan
                x="15206.25"
                y="29340.275"
-               id="tspan36821"><tspan
+               id="tspan2316"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36819">applications</tspan></tspan></text>
+                 id="tspan2314">applications</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle162496"
@@ -2629,7 +2630,7 @@
          y="0"><tspan
            x="14504.688"
            y="29039.62"
-           id="tspan36823">AI/ML</tspan></text>
+           id="tspan2318">AI/ML</tspan></text>
       <g
          id="g199470">
         <path
@@ -2648,33 +2649,33 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36827"><tspan
+               id="tspan2322"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36825">Resource gathering
+                 id="tspan2320">Resource gathering
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36831"><tspan
+               id="tspan2326"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36829">Identify and adapt to new markets
+                 id="tspan2324">Identify and adapt to new markets
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36835"><tspan
+               id="tspan2330"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36833">Identify new partnerships
+                 id="tspan2328">Identify new partnerships
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36839"><tspan
+               id="tspan2334"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36837">Automate/suggest updates to regulatory 
+                 id="tspan2332">Automate/suggest updates to regulatory 
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36843"><tspan
+               id="tspan2338"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36841">and legal requirements</tspan></tspan></text>
+                 id="tspan2336">and legal requirements</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle165908"
@@ -2718,9 +2719,9 @@
            style="font-size:40px;line-height:1.25;font-family:sans-serif;text-align:end;white-space:pre;shape-inside:url(#rect103816)"><tspan
              x="18792.893"
              y="30616.181"
-             id="tspan36847"><tspan
+             id="tspan2342"><tspan
                style="fill:#ffffff"
-               id="tspan36845">simultaneous workflow</tspan></tspan></text>
+               id="tspan2340">simultaneous workflow</tspan></tspan></text>
       </g>
       <g
          id="g199435">
@@ -2740,63 +2741,63 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36851"><tspan
+               id="tspan2346"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36849">International
+                 id="tspan2344">International
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36855"><tspan
+               id="tspan2350"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36853">        NZ/Asiapac
+                 id="tspan2348">        NZ/Asiapac
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36859"><tspan
+               id="tspan2354"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36857">        India/UK
+                 id="tspan2352">        India/UK
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36863"><tspan
+               id="tspan2358"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36861">        Europe/USA
+                 id="tspan2356">        Europe/USA
 </tspan></tspan><tspan
                x="15206.25"
                y="29184.755"
-               id="tspan36867"><tspan
+               id="tspan2362"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36865">        Global/Universal
+                 id="tspan2360">        Global/Universal
 </tspan></tspan><tspan
                x="15206.25"
                y="29236.595"
-               id="tspan36871"><tspan
+               id="tspan2366"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36869">Cross-disciplinary
+                 id="tspan2364">Cross-disciplinary
 </tspan></tspan><tspan
                x="15206.25"
                y="29288.435"
-               id="tspan36875"><tspan
+               id="tspan2370"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36873">        Spin out of the space sector where the
+                 id="tspan2368">        Spin out of the space sector where the
 </tspan></tspan><tspan
                x="15206.25"
                y="29340.275"
-               id="tspan36879"><tspan
+               id="tspan2374"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36877">        technology can be of use to streamline
+                 id="tspan2372">        technology can be of use to streamline
 </tspan></tspan><tspan
                x="15206.25"
                y="29392.115"
-               id="tspan36883"><tspan
+               id="tspan2378"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36881">        other processes
+                 id="tspan2376">        other processes
 </tspan></tspan><tspan
                x="15206.25"
                y="29443.954"
-               id="tspan36887"><tspan
+               id="tspan2382"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36885">
+                 id="tspan2380">
 </tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
@@ -2860,27 +2861,27 @@
              y="0"><tspan
                x="15206.25"
                y="28977.396"
-               id="tspan36891"><tspan
+               id="tspan2386"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36889">Always improve
+                 id="tspan2384">Always improve
 </tspan></tspan><tspan
                x="15206.25"
                y="29029.236"
-               id="tspan36895"><tspan
+               id="tspan2390"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36893">Always strive to simplify
+                 id="tspan2388">Always strive to simplify
 </tspan></tspan><tspan
                x="15206.25"
                y="29081.076"
-               id="tspan36899"><tspan
+               id="tspan2394"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36897">Always listen
+                 id="tspan2392">Always listen
 </tspan></tspan><tspan
                x="15206.25"
                y="29132.915"
-               id="tspan36903"><tspan
+               id="tspan2398"><tspan
                  style="font-family:Barlow;-inkscape-font-specification:'Barlow, Normal';text-align:start;fill:#ffd5d5"
-                 id="tspan36901">Always learn</tspan></tspan></text>
+                 id="tspan2396">Always learn</tspan></tspan></text>
           <circle
              style="fill:#ffd5d5;fill-opacity:1;stroke:#ffffff;stroke-width:0.301064;stroke-miterlimit:4;stroke-dasharray:0.301064, 3.61276;stroke-dashoffset:0;stroke-opacity:1"
              id="circle198345"
