@@ -3,9 +3,9 @@
     export let subheader;
     export let imageLoc;
     export let imageAlt;
-    export let para1;
-    export let para2;
-    export let para3;
+    export let para1 = null;
+    export let para2 = null;
+    export let para3 = null;
 
 </script>
 
@@ -25,9 +25,6 @@
     .content {
     height: auto;
     padding: 5px;
-  }
-  .content-blog {
-    min-height: 300px;
   }
   .content-text {
     color: #eee;
@@ -49,12 +46,5 @@
     color: #eeeeee;
     margin-bottom: 20px;
     text-align: left;
-  }
-  .content-img {
-    text-align: center;
-  }
-  .content-img img {
-    border-radius: 10px;
-    margin: auto;
   }
   </style>
