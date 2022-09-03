@@ -1,5 +1,6 @@
 ---
 import NavGroup from "../components/NavGroup.astro";
+import MediaQuery from "../components/MediaQuery.astro";
 
 export interface Props {
 	title: string;
@@ -99,34 +100,12 @@ title = title + " | Blue Dwarf Space";
 
                     <div class="mx-12">
                         <NavGroup />
-
-                        <div class="m-auto items-center">
-                            <span
-                                class="tooltip tooltip-bottom badge bg-primary text-xs"
-                                data-tip="mobile">PH</span
-                            >
-                            <span
-                                class="tooltip tooltip-bottom badge sm:bg-primary text-xs"
-                                data-tip="640px">SM</span
-                            >
-                            <span
-                                class="tooltip tooltip-bottom badge md:bg-primary text-xs"
-                                data-tip="768px">MD</span
-                            >
-                            <span
-                                class="tooltip tooltip-bottom badge lg:bg-primary text-xs"
-                                data-tip="1024px">LG</span
-                            >
-                            <span
-                                class="tooltip tooltip-bottom badge xl:bg-primary text-xs"
-                                data-tip="1280px">XL</span
-                            >
-                            <span
-                                class="tooltip tooltip-bottom badge 2xl:bg-primary text-xs"
-                                data-tip="1536px">2XL</span
-                            >
-                        </div>
                     </div>
+
+                    <div class="mx-auto">
+                        <MediaQuery />
+                    </div>
+
                 </article>
 
                 <footer
