@@ -1,15 +1,9 @@
 ---
 import NavGroup from "../components/NavGroup.astro";
 
-import '@fontsource/orbitron';
-import '@fontsource/inter';
-
 export interface Props {
 	title: string;
 }
-
-import '@fontsource/orbitron';
-import '@fontsource/inter';
 
 let { title } = Astro.props as Props;
 
@@ -27,6 +21,24 @@ title = title + " | Blue Dwarf Space";
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Barlow&display=swap" rel="stylesheet">
+
+
+
+
+        <style>
+
+            .prose {
+                max-width: 1000px !important;    
+            }
+            .prose img {
+                margin:initial !important;
+                margin-bottom: 100px !important;
+            }
+            </style>
+
+
+
+
         <title>{title}</title>
     </head>
 
@@ -35,7 +47,7 @@ title = title + " | Blue Dwarf Space";
             <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
             <div class="drawer-content flex flex-col">
                 <!-- Navbar -->
-                <div class="w-full navbar bg-gradient-to-bl from-base-300 via-base-100 to-base-300">
+                <div class="top-0 sticky w-full navbar bg-gradient-to-bl from-base-300 via-base-100 to-base-300" style="z-index:9999;">
                     <div class="flex-none lg:hidden">
                         <label
                             for="my-drawer-3"
@@ -69,6 +81,7 @@ title = title + " | Blue Dwarf Space";
                             <li><a href="/about">About</a></li>
                             <li><a href="/mission">Mission</a></li>
                             <li><a href="/contact">Contact</a></li>
+                            <li><a href="https://radio.bluedwarf.space">Radio</a></li>
                         </ul>
                     </div>
                 </div>

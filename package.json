@@ -10,10 +10,12 @@
     "astro": "astro"
   },
   "devDependencies": {
+    "@astrojs/svelte": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
     "@astrojs/vercel": "^1.0.1",
     "@tailwindcss/typography": "^0.5.4",
-    "astro": "^1.0.8"
+    "astro": "^1.0.8",
+    "svelte": "^3.49.0"
   },
   "dependencies": {
     "@fontsource/inter": "^4.5.12",
