@@ -1,11 +1,19 @@
 <script>
     export let header;
     export let subheader;
-    export let imageLoc;
+    export let imageLoc = "";
     export let imageAlt;
     export let para1 = null;
     export let para2 = null;
     export let para3 = null;
+
+    let imageSize = "";
+
+
+
+    if (imageLoc.endsWith('png'))
+        {imageSize='w-80'}
+    console.log(imageSize);
 
 </script>
 
@@ -13,7 +21,7 @@
     <div class="content-text">
         <h1>{header}</h1>
         <h2>{subheader}</h2>
-        <img class="mx-auto" src={imageLoc} alt={imageAlt} />
+        <img class="mx-auto {imageSize}" src={imageLoc} alt={imageAlt} />
         <p>{para1}</p>
         <p>{para2}</p>
         <p>{para3}</p>
