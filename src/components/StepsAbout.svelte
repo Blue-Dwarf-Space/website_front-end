@@ -60,7 +60,7 @@
         />
         <Content 
             header="There is no clean, common solution"
-            subheader="The current workflow involves multiple iterative processes that are vulnerable to repetition and failure."
+            subheader="The current workflow involves multiple iterative processes that are vulnerable to repetition and failure"
             imageLoc="/assets/current_workflow.svg"
             imageAlt="convoluted mess demonstrating difficult workflow, hybrid of gears and spaghetti"
             para1="This creates an industry pain point where there is a perceived imbalance between innovation and regulation."
@@ -88,13 +88,22 @@
 <!-- Team -->
     {#if activeItem == 1}
         <Content 
-            header="Our founders"
-            subheader="We hold experience over the relevant fields, share a deep love of technology and space, and hold the belief that we should strive to leave this world a better place."
+            header="We understand what is important, and how to make that happen"
+            subheader=""
+            imageLoc="/assets/whyUs.svg"
+            imageAlt=""
+            para1=""
+            para2=""
+            para3=""
+        />
+        <Content 
+            header=""
+            subheader="Borne of a desire to be a part of something amazing, our founders came together to combine their skills and passions to become enablers"
             imageLoc="/assets/founders.svg"
             imageAlt="intro bubbles in the shape of the starship enterprise"
-            para1="We come from backgrounds in technology, education, public service, politics and policy, business operations, management, construction, and law."
-            para2="We share a desire to do good in this world, and beyond. We aim to combine our efforts, and our talents, to make that possible."
-            para3=""
+            para1="We hold experience over the relevant fields, share a deep love of technology and space, and hold the belief that we should strive to leave this world a better place."
+            para2="We come from backgrounds in technology, education, public service, politics and policy, business operations, management, construction, and law."
+            para3="We share a desire to do good in this world, and beyond. We aim to combine our efforts, and our talents, to make that possible."
         />
     {/if}
 
