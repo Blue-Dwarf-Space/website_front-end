@@ -52,7 +52,7 @@
         <Content 
               header="Gaining a permit to perform space activities is really complex"
               subheader="Navigating the regulatory burden is a barrier to entry"
-              imageLoc="/assets/question_marks_logo.svg"
+              imageLoc="/assets/why.png"
               imageAlt="lots of question marks"
               para1="The process differs in accordance with mission parameters, and can be confusing, time consuming, and expensive."
               para2="There are many dependencies and pre-requisites, and many of these also have pre-requisites, forming a hierarchy of dependencies that, in and of itself, can be difficult to discover."
