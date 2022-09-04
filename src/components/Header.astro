@@ -1,0 +1,24 @@
+---
+export interface Props {
+	hv_layout?: string;
+}
+
+const { hv_layout = "horizontal" } = Astro.props as Props;
+
+let classtext = "menu";
+if (hv_layout == "horizontal")
+    {classtext += " menu-horizontal"}
+else
+    {classtext += " p-4 overflow-y-auto w-80 bg-base-100"}
+---
+
+<ul 
+    class={classtext}
+>
+    <!-- Header/sidebar menu content here -->
+    <li><a href="/about">About</a></li>
+    <li><a href="/mission">Mission</a></li>
+    <li><a href="/media">Media</a></li>
+    <li><a href="/contact">Contact</a></li>
+</ul>
+

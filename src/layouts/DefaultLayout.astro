@@ -2,6 +2,7 @@
 import NavGroup from "../components/NavGroup.astro";
 import MediaQuery from "../components/MediaQuery.astro";
 import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 
 export interface Props {
 	title: string;
@@ -81,13 +82,7 @@ title = title + " | Blue Dwarf Space";
                         <MediaQuery />
                     </div>
                     <div class="flex-none hidden lg:block">
-                        <ul class="menu menu-horizontal">
-                            <!-- Navbar menu content here -->
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/mission">Mission</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="https://radio.bluedwarf.space">Radio</a></li>
-                        </ul>
+                        <Header hv_layout="horizontal" />
                     </div>
                 </div>
 
@@ -115,13 +110,7 @@ title = title + " | Blue Dwarf Space";
 
             <div class="drawer-side">
                 <label for="my-drawer-3" class="drawer-overlay"></label>
-                <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
-                    <!-- Sidebar content here -->
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/mission">Mission</a></li>
-                    <li><a href="/media">Media</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
+                <Header hv_layout="vertical" />                
             </div>
         </div>
     </body>
