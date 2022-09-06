@@ -1,0 +1,50 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro";
+---
+
+<DefaultLayout 
+    title="Contact"
+    logoImage=""
+>
+    <main>
+        <div>&nbsp;</div>
+        <div class="hero glass">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl glass">
+                <div class="card-body">
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Name</span>
+                        </label>
+                        <input type="text" placeholder="name" class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Email</span>
+                        </label>
+                        <input type="email" placeholder="email" class="input input-bordered" />
+                    </div>
+                    <div class="form-control">
+                        <label class="label">
+                            <span class="label-text">Tell us something</span>
+                        </label>
+                        <textarea class="input input-bordered"></textarea>
+                    </div>
+                    <div class="form-control mt-6">
+                        <button class="btn btn-neutral">Send it</button>
+                    </div>
+                    </div>
+              </div>
+              <div class="text-center lg:text-left">
+                <h1 class="text-5xl font-bold text-neutral">Let's chat!</h1>
+                <p class="py-6">Whatever the reason, we would love to hear from you!</p>
+              </div>
+            </div>
+          </div>
+
+    </main>
+</DefaultLayout>
+
+<style>
+
+</style>
