@@ -79,9 +79,9 @@
             subheader="Why reinvent the wheel when you can jump into our teleporter?"
             imageLoc="/assets/new_workflow.svg"
             imageAlt="Smoother workflow, simplified and streamlined"
-            para1="let us do all the hard work for you"
-            para2="single point of contact, data entry, failure, resolution"
-            para3="change looks like us"
+            para1="Let us do all the hard work for you."
+            para2="Single point of contact, data entry, failure, resolution."
+            para3="Change looks like us."
         />
     {/if}
 
