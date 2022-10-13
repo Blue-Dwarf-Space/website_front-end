@@ -1,0 +1,71 @@
+---
+import DefaultLayout from "../layouts/DefaultLayout.astro"
+import HeaderGeneral from "../components/HeaderGeneral.astro"
+import OpenGraphMeta from "../components/OpenGraphMeta.astro"
+// import DefaultLayoutWide from "../layouts/DefaultLayoutWide.astro"
+
+const title = "Internship / Employment at Blue Dwarf Space"
+
+let contentUrl = "https://bluedwarf.space/employment"
+let thumbnail =
+    "https://bluedwarf.space/assets/blue_dwarf_space_social_media_logo.png"
+let description = "Blue Dwarf Space - SCOUT 2022 internship employment form"
+---
+
+<OpenGraphMeta
+    title={title}
+    url={contentUrl}
+    thumbnail={thumbnail}
+    description={description}
+/>
+
+<DefaultLayout title={title}>
+    <div class="container mx-auto text-center pt-8">
+        <h1>Employment</h1>
+
+        <h2 class="mt-8 text-xl">Does this sound like you?</h2>
+
+        <div class="mx-auto items-center mt-8 mb-8">
+            <center>
+                <a href="/assets/traits.png"
+                    ><img
+                        src="/assets/traits.png"
+                        alt="traits"
+                        class="self-center"
+                    />
+                </a>
+            </center>
+        </div>
+
+        <div class="mx-0 md:mx-8 mb-8">
+            <div id="announc3ment" data-augmented-ui="" class="">
+                <b>We might be able to do cool space stuff together.</b><br />
+                <br />
+
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfjyCgrwt-OZ2OiJdwgo-xL1ozaik-dDGrjp549c4LcJMa9Kw/viewform"
+                    target="_blank"
+                    class="btn btn-outline btn-accent text-lg pt-1 pb-8 btn-xs mt-2"
+                    >Fill out form</a
+                ><br />
+                <br />
+
+                <p class="text-2xs text-center mb-0">
+                    we see some <span class="text-error">red tape</span> and we want
+                    to paint it black
+                </p>
+            </div>
+        </div>
+
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSfjyCgrwt-OZ2OiJdwgo-xL1ozaik-dDGrjp549c4LcJMa9Kw/viewform?embedded=true"
+            class="w-full hidden"
+            height="2300"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            >Loading…
+        </iframe>
+        <HeaderGeneral />
+    </div>
+</DefaultLayout>
