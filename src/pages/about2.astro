@@ -10,7 +10,7 @@ import NavGroup from "../components/NavGroup.astro";
             
 <!-- screen 1 - Mission -->
             <div class="snap-start bg-base-100 w-screen h-screen flex items-center justify-center text-8xl">
-                <div class="content leading-normal mx-auto py-12 px-4">
+                <div id="mission" class="content leading-normal mx-auto py-12 px-4">
                     <div>
                         <h1 class="text-5xl font-bold">Our mission is to make space reachable to all</h1>
                         <h1 class="text-5xl font-bold">by fundamentally changing industry processes,</h1>
@@ -32,163 +32,116 @@ import NavGroup from "../components/NavGroup.astro";
 
 <!-- screen 2 - about -->            
 
-<div class="snap-start bg-base-300 w-screen h-screen flex items-center justify-center">
-    <div class="carousel w-full h-screen">
-        <div id="slide2_1" class="carousel-item relative w-full items-center justify-center">
-            <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="/assets/image1.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Greg Rakozy on Unsplash" />
-                    <div>
-                        <h1 class="text-5xl font-bold">the universe is expanding and so is the space sector</h1>
-                        <p class="mb-4 text-lg">The space industry is growing rapidly, with increasing investment and innovation in areas such as satellite technology, space tourism, and space exploration.</p>
-                        <p class="mb-4 text-lg">The global space industry is expected to grow to $1.4 trillion by 2030, creating significant opportunities for companies that can overcome the regulatory barriers to entry.</p> 
-                        <p class="mb-4 text-lg">Blue Dwarf Space is uniquely positioned to capture a significant share of this market by offering a simpler and more efficient regulatory process, enabling more companies to participate and succeed.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2_5" class="btn btn-circle">❮</a> 
-                <a href="#slide2_2" class="btn btn-circle">❯</a>
-            </div>
-        </div> 
-        <div id="slide2_2" class="carousel-item relative w-full items-center justify-center">
-            <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="/assets/image3.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Greg Rakozy on Unsplash"/>
-                    <div>
-                        <h1 class="text-5xl font-bold">access to space is complex</h1>
-                        <p class="mb-4 text-lg">The space industry is highly regulated, with many different permits required for different activities, such as launching rockets, deploying satellites, and conducting experiments in space.</p>
-                        <p class="mb-4 text-lg">Obtaining these permits can be a time-consuming and complex process, involving multiple government agencies, international regulations, third-party suppliers, and processes that are prone to failure and highly iterative.</p> 
-                        <p class="mb-4 text-lg">For small and medium-sized companies, the costs and resources required to navigate these processes can be prohibitively high, limiting their ability to participate in the industry.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2_1" class="btn btn-circle">❮</a> 
-                <a href="#slide2_3" class="btn btn-circle">❯</a>
-            </div>
-        </div> 
-        <div id="slide2_3" class="carousel-item relative w-full items-center justify-center">
-            <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="/assets/about_easier.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Ryan Hutton on Unsplash" />
-                    <div>
-                        <h1 class="text-5xl font-bold">we believe there is an easier way</h1>
-                            <p class="mb-4 text-lg">Create clarity from confusion. Recombobulate.</p>
-                            <p class="mb-4 text-lg">Blue Dwarf Space are developing a platform that streamlines the regulatory process for space activities, making it faster, easier, and more cost-effective for companies to obtain the necessary permits.</p>
-                            <p class="mb-4 text-lg">Our platform understands and automates many of the administrative tasks involved in the process, reducing the burden on companies, and allowing them to focus on their core activities. We know the routes, and we navigate the pathways.</p> 
-                            <p class="mb-4 text-lg">By providing a more efficient and user-friendly process, we are enabling more companies to enter and succeed in the space industry, driving innovation and growth in this exciting and important sector.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2_2" class="btn btn-circle">❮</a> 
-                <a href="#slide2_4" class="btn btn-circle">❯</a>
-            </div>
-        </div> 
-        <div id="slide2_4" class="carousel-item relative w-full items-center justify-center">
-            <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
-                <div class="hero-content flex-col lg:flex-row">
-                    <img src="/assets/about_responsibility.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by 愚木混株 cdd20 on Unsplash" />
-                    <div>
-                        <h1 class="text-5xl font-bold">responsibility and sustainability</h1>
-                        <p class="mb-4 text-lg">Blue Dwarf Space is on a mission to promote responsible and sustainable use of space.</p>
-                        <p class="mb-4 text-lg">We recognise that regulations are critical in achieving this objective, and we do not condone any efforts to circumvent them.</p>
-                        <p class="mb-4 text-lg">Some companies and countries have historically disregarded regulations when the process is too complex, time-consuming, or costly, viewing the consequences as the cost of doing business.</p> 
-                        <p class="mb-4 text-lg">We want to change this by streamlining the regulatory process and ensuring a smoother workflow at a far better cost-point than the alternatives, which eliminates the need for any cowboy behavior. Our goal is to make doing things the right way less frustrating, less costly, and less time-consuming, encouraging responsible and sustainable use of space.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div>
-            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide2_3" class="btn btn-circle">❮</a> 
-              <a href="#slide2_5" class="btn btn-circle">❯</a>
-            </div>
-          </div>
-          <div id="slide2_5" class="carousel-item relative w-full items-center justify-center">
-                <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
-                    <div class="hero-content flex-col lg:flex-row">
-                        <img src="/assets/moon.png" class="max-w-sm" />
-                        <div>
-                            <h1 class="text-5xl font-bold">join the space revolution</h1>
-                            <p class="mb-4 text-lg">Become part of a new generation of space explorers by contacting Blue Dwarf Space today.</p>
-                            <button class="btn btn-primary">Get Started</button>
+            <div class="snap-start bg-base-200 w-screen h-screen flex items-center justify-center">
+                <div class="carousel w-full h-screen">
+                    <div id="slide2_1" class="carousel-item relative w-full items-center justify-center">
+                        <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
+                            <div class="hero-content flex-col lg:flex-row">
+                                <img src="/assets/image1.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Greg Rakozy on Unsplash" />
+                                <div>
+                                    <h1 class="text-5xl font-bold">the universe is expanding and so is the space sector</h1>
+                                    <p class="mb-4 text-lg">The space industry is growing rapidly, with increasing investment and innovation in areas such as satellite technology, space tourism, and space exploration.</p>
+                                    <p class="mb-4 text-lg">The global space industry is expected to grow to $1.4 trillion by 2030, creating significant opportunities for companies that can overcome the regulatory barriers to entry.</p> 
+                                    <p class="mb-4 text-lg">Blue Dwarf Space is uniquely positioned to capture a significant share of this market by offering a simpler and more efficient regulatory process, enabling more companies to participate and succeed.</p>
+                                    <NavGroup logoImage="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2_5" class="btn btn-circle">❮</a> 
+                            <a href="#slide2_2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide2_2" class="carousel-item relative w-full items-center justify-center">
+                        <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
+                            <div class="hero-content flex-col lg:flex-row">
+                                <img src="/assets/image3.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Greg Rakozy on Unsplash"/>
+                                <div>
+                                    <h1 class="text-5xl font-bold">access to space is complex</h1>
+                                    <p class="mb-4 text-lg">The space industry is highly regulated, with many different permits required for different activities, such as launching rockets, deploying satellites, and conducting experiments in space.</p>
+                                    <p class="mb-4 text-lg">Obtaining these permits can be a time-consuming and complex process, involving multiple government agencies, international regulations, third-party suppliers, and processes that are prone to failure and highly iterative.</p> 
+                                    <p class="mb-4 text-lg">For small and medium-sized companies, the costs and resources required to navigate these processes can be prohibitively high, limiting their ability to participate in the industry.</p>
+                                    <NavGroup logoImage="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2_1" class="btn btn-circle">❮</a> 
+                            <a href="#slide2_3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide2_3" class="carousel-item relative w-full items-center justify-center">
+                        <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
+                            <div class="hero-content flex-col lg:flex-row">
+                                <img src="/assets/about_easier.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by Ryan Hutton on Unsplash" />
+                                <div>
+                                    <h1 class="text-5xl font-bold">we believe there is an easier way</h1>
+                                        <p class="mb-4 text-lg">Create clarity from confusion. Recombobulate.</p>
+                                        <p class="mb-4 text-lg">Blue Dwarf Space are developing a platform that streamlines the regulatory process for space activities, making it faster, easier, and more cost-effective for companies to obtain the necessary permits.</p>
+                                        <p class="mb-4 text-lg">Our platform understands and automates many of the administrative tasks involved in the process, reducing the burden on companies, and allowing them to focus on their core activities. We know the routes, and we navigate the pathways.</p> 
+                                        <p class="mb-4 text-lg">By providing a more efficient and user-friendly process, we are enabling more companies to enter and succeed in the space industry, driving innovation and growth in this exciting and important sector.</p>
+                                        <NavGroup logoImage="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2_2" class="btn btn-circle">❮</a> 
+                            <a href="#slide2_4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div> 
+                    <div id="slide2_4" class="carousel-item relative w-full items-center justify-center">
+                        <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
+                            <div class="hero-content flex-col lg:flex-row">
+                                <img src="/assets/about_responsibility.jpg" class="max-w-sm rounded-lg shadow-2xl" alt="Photo by 愚木混株 cdd20 on Unsplash" />
+                                <div>
+                                    <h1 class="text-5xl font-bold">responsibility and sustainability</h1>
+                                    <p class="mb-4 text-lg">Blue Dwarf Space is on a mission to promote responsible and sustainable use of space.</p>
+                                    <p class="mb-4 text-lg">We recognise that regulations are critical in achieving this objective, and we do not condone any efforts to circumvent them.</p>
+                                    <p class="mb-4 text-lg">Some companies and countries have historically disregarded regulations when the process is too complex, time-consuming, or costly, viewing the consequences as the cost of doing business.</p> 
+                                    <p class="mb-4 text-lg">We want to change this by streamlining the regulatory process and ensuring a smoother workflow at a far better cost-point than the alternatives, which eliminates the need for any cowboy behavior. Our goal is to make doing things the right way less frustrating, less costly, and less time-consuming, encouraging responsible and sustainable use of space.</p>
+                                    <NavGroup logoImage="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2_3" class="btn btn-circle">❮</a> 
+                        <a href="#slide2_5" class="btn btn-circle">❯</a>
                         </div>
                     </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2_4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2_1" class="btn btn-circle">❯</a>
-                </div>
+                    <div id="slide2_5" class="carousel-item relative w-full items-center justify-center">
+                            <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
+                                <div class="hero-content flex-col lg:flex-row">
+                                    <img src="/assets/moon.png" class="max-w-sm" />
+                                    <div>
+                                        <h1 class="text-5xl font-bold">join the space revolution</h1>
+                                        <p class="mb-4 text-lg">Become part of a new generation of space explorers by contacting Blue Dwarf Space today.</p>
+                                        <NavGroup logoImage="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide2_4" class="btn btn-circle">❮</a> 
+                                <a href="#slide2_1" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-        </div>
-</div>
 
             
-
-<!-- screen 3 -  -->
-            <div class="snap-start bg-base-100 w-screen h-screen flex items-center justify-center text-8xl">
-                <div class="content leading-normal mx-auto py-12 px-4">
-                    <div>
-                        <h2>we believe</h2>
-                        <h2>there is an easier way</h2>
-                    </div>
-                    <div class="content leading-normal mx-auto py-12 px-4 max-w-lg">
-                        <p class="mb-4 text-lg">Create clarity from confusion. Recombobulate.</p>
-                        <p class="mb-4 text-lg">Blue Dwarf Space are developing a platform that streamlines the regulatory process for space activities, making it faster, easier, and more cost-effective for companies to obtain the necessary permits.</p>
-                        <p class="mb-4 text-lg">Our platform understands and automates many of the administrative tasks involved in the process, reducing the burden on companies, and allowing them to focus on their core activities. We know the routes, and we navigate the pathways.</p> 
-                        <p class="mb-4 text-lg">By providing a more efficient and user-friendly process, we are enabling more companies to enter and succeed in the space industry, driving innovation and growth in this exciting and important sector.</p>
-                    </div>
-                    <div class="card-actions items-center justify-center">
-                        <NavGroup logoImage="" />
-                    </div>
-                    <p>&nbsp;</p>
-                </div>
-
-            </div>
-
-
-<!-- screen 3 -  -->
-            <div class="snap-start bg-base-300 w-screen h-screen flex items-center justify-center text-8xl">
-                <div class="content leading-normal mx-auto py-12 px-4">
-                    <div>
-                        <h2>supporting responsibility</h2>
-                        <h2>and sustainability</h2>
-                    </div>
-                    <div class="content leading-normal mx-auto py-12 px-4 max-w-lg">
-                        <p class="mb-4 text-lg">Blue Dwarf Space is on a mission to promote responsible and sustainable use of space.</p>
-                        <p class="mb-4 text-lg">We recognise that regulations are critical in achieving this objective, and we do not condone any efforts to circumvent them.</p>
-                        <p class="mb-4 text-lg">Some companies and countries have historically disregarded regulations when the process is too complex, time-consuming, or costly, viewing the consequences as the cost of doing business.</p> 
-                        <p class="mb-4 text-lg">We want to change this by streamlining the regulatory process and ensuring a smoother workflow at a far better cost-point than the alternatives, which eliminates the need for any cowboy behavior. Our goal is to make doing things the right way less frustrating, less costly, and less time-consuming, encouraging responsible and sustainable use of space.</p>
-                    </div>
-                    <div class="card-actions items-center justify-center">
-                        <NavGroup logoImage="" />
-                    </div>
-                    <p>&nbsp;</p>
-                </div>
-            </div>
-
-
-
-
-
-
-            
+           
 <!-- screen 3 -  -->
             <div class="snap-start bg-base-300 w-screen h-screen flex items-center justify-center">
                 <div class="carousel w-full h-screen">
                     <div id="slide3_1" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/enterprise.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-success">Prime Directive</h2>
                                     <p class="mb-4 text-lg">Enabling Australian space capability.</p>
                                     <p class="mb-4 text-lg">Ease the burden on space missions by facilitating and navigating regulatory workflow.</p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -200,11 +153,12 @@ import NavGroup from "../components/NavGroup.astro";
                     <div id="slide3_2" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/stars.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-accent">Serendipity</h2>
                                     <p class="mb-4 text-lg">We are intrepid explorers at the forefront of Space Specific Regulatory Requirements, seeking information and improving processes before you need them.</p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -216,11 +170,12 @@ import NavGroup from "../components/NavGroup.astro";
                     <div id="slide3_3" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/person.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-warning">Embrace disambiguation</h2>
                                     <p class="mb-4 text-lg">By removing confusion and complexity, we can achieve more. Simplify all the things.</p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -232,13 +187,14 @@ import NavGroup from "../components/NavGroup.astro";
                     <div id="slide3_4" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/cube.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-error">Security and ingenuity</h2>
                                     <p class="mb-4 text-lg">Regulations are intended to ensure safety and sustainability. Our aim is not to fight them (although 
-                                        we will work to guide them), but to find a smoother 
-                                        path through them. By streamlining security, we make room for innovation.</p>
+                                        we will work to guide them), but to find a smoother path through them. By streamlining security, we make room for innovation.
+                                    </p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -250,12 +206,14 @@ import NavGroup from "../components/NavGroup.astro";
                     <div id="slide3_5" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/peace_fist.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-secondary">Synchronicity</h2>
                                     <p class="mb-4 text-lg">When we combine our strengths with others, we are all stronger for it. We offer ourselves, our knowledge, and 
-                                        our product to work with others to improve the process for all parties; clients, partners, other agencies, and our own people. </p>
+                                        our product to work with others to improve the process for all parties; clients, partners, other agencies, and our own people. 
+                                    </p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -267,11 +225,12 @@ import NavGroup from "../components/NavGroup.astro";
                     <div id="slide3_6" class="carousel-item relative w-full items-center justify-center">
                         <div class="hero bg-white h-2/3 w-5/6 items-center justify-center">
                             <div class="hero-content flex-col lg:flex-row">
-                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">facilitating awesome</h1></div>
+                                <div class="flex-none w-84"><h1 class="text-5xl font-bold">we facilitate awesome</h1></div>
                                 <div><img src="/assets/icons/rocket.svg" /></div>
                                 <div>
                                     <h2 class="text-4xl font-bold text-info">Engage</h2>
                                     <p class="mb-4 text-lg">Remain up to date and relevant. Make it so!</p>
+                                    <NavGroup logoImage="" />
                                 </div>
                             </div>
                         </div>
@@ -284,27 +243,26 @@ import NavGroup from "../components/NavGroup.astro";
             </div>
 
 
-<!-- screen 4 -  -->            
-            <div class="snap-start bg-white w-screen h-screen flex items-center justify-center text-8xl">
+<!-- screen 4 -  -->     
+            <div class="snap-start bg-base-200 w-screen h-screen flex items-center justify-center text-8xl">
                 <div class="content leading-normal mx-auto py-12 px-4">
                     <div>
-                        <h2>the future of space exploration, right here</h2>
+                        <h2>Blue Dwarf Space founders</h2>
                     </div>
-                    <div class="content leading-normal mx-auto py-12 px-4 max-w-lg">
-                        <p class="mb-4 text-lg">We believe in a world where anyone can access space, and we're making it happen.</p>
-                        <p class="mb-4 text-lg">We are revolutionising the space industry by streamlining the regulatory process and making it easier for companies to access space. Our mission is to enable the world to explore and utilise space to its fullest potential.</p> 
-                        <p class="mb-4 text-lg">Are you ready to take your company to new heights?</p>
-                        <p class="mb-4 text-lg">Let us help you get there.</p>
+                    <div class="content leading-normal mx-auto py-12 px-4 max-w-xl">
+                        <img src="/assets/founders.png" />
+                        <p class="mb-4 text-lg">Our founders bring a plethora or experience across relevant fields, share a deep love a technology and space, and hold the belief that we should strive to leave this world a better place. 
+                        </p>
                     </div>
                     <div class="card-actions items-center justify-center">
-                        <button class="btn glass rounded-full">get started</button>
+                        <NavGroup logoImage="" />
                     </div>
                     <p>&nbsp;</p>
                 </div>
  
             </div>
 
-<!-- screen 5 -  -->            
+<!-- screen 5 -  
             <div class="snap-start bg-base-100 w-screen h-screen flex items-center justify-center text-8xl">
                 <div class="content leading-normal mx-auto py-12 px-4">
                     <div>
@@ -323,7 +281,7 @@ import NavGroup from "../components/NavGroup.astro";
                 </div>
  
             </div>
-
+-->            
 <!-- screen 6 -  -->    
 
 
