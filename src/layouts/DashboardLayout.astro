@@ -1,0 +1,41 @@
+---
+
+export interface Props {
+    title: string;
+}
+
+import '@fontsource/orbitron';
+import '@fontsource/inter';
+
+import Header from "../components/DashboardHeader.astro"
+import Footer from "../components/DashboardFooter.astro"
+
+const { title } = Astro.props as Props;
+
+---
+
+<!DOCTYPE html>
+<html lang="en" data-theme="">
+    <head>
+        <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+    </head>
+    <body>
+        <Header hv_layout="horizontal" />
+        <slot />
+        <Footer />
+    </body>
+</html>
+
+<style>
+    .prose {
+        max-width: 1000px !important;    
+    }
+    .prose img {
+        margin:initial !important;
+        margin-bottom: 100px !important;
+    }
+</style>
