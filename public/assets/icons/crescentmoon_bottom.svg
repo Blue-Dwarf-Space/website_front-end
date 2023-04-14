@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.0538201mm"
+   height="3.8257501mm"
+   viewBox="0 0 6.0538201 3.8257501"
+   version="1.1"
+   id="svg87749"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="crescentmoon_bottom.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview87751"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="-374.69364"
+     inkscape:cy="-674.44855"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs87746" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-162.61565,-326.8938)">
+    <path
+       id="path22369"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.137256;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 168.66947,327.69273 a 3.0268528,-3.0268528 0 0 0 -0.10881,-0.79567 3.0268528,-3.0268528 0 0 1 -2.91816,2.22459 3.0268528,-3.0268528 0 0 1 -2.91745,-2.22785 3.0268528,-3.0268528 0 0 0 -0.1094,0.79893 3.0268528,-3.0268528 0 0 0 3.02697,3.02682 3.0268528,-3.0268528 0 0 0 3.02682,-3.02682 z" />
+  </g>
+</svg>

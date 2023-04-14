@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="71.114105mm"
+   height="55.918835mm"
+   viewBox="0 0 71.114105 55.918834"
+   version="1.1"
+   id="svg70269"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="gretzky.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview70271"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="-404.35688"
+     inkscape:cy="-967.95856"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs70266">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter18029"
+       x="-0.011629544"
+       y="-0.015065292"
+       width="1.0375249"
+       height="1.0486399">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood18019" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite18021" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur18023" />
+      <feOffset
+         dx="6.5"
+         dy="6.5"
+         result="offset"
+         id="feOffset18025" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite18027" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter18053"
+       x="-0.063403331"
+       y="-0.070848708"
+       width="1.2126653"
+       height="1.2376384">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood18043" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite18045" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="2"
+         result="blur"
+         id="feGaussianBlur18047" />
+      <feOffset
+         dx="6.5"
+         dy="6.5"
+         result="offset"
+         id="feOffset18049" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite18051" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-170.42054,-404.45112)">
+    <g
+       id="g765877"
+       transform="matrix(0.77461455,0,0,0.6668913,174.1389,404.9993)"
+       style="fill:#db663a;fill-opacity:1;filter:url(#filter18053)"
+       inkscape:export-filename="C:\Users\kelly\OneDrive\Documents\BlueDwarf\imagery\web svgs\gretzky.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path765875"
+         d="m 69.901,65.207 c -0.704,0.593 -1.563,0.882 -2.416,0.882 -1.07,0 -2.133,-0.455 -2.875,-1.338 L 42.568,38.549 35.399,43.227 c -1.587,1.035 -2.31,2.954 -1.8,4.777 3.283,11.739 3.283,11.989 3.283,12.66 0,2.075 -1.681,3.756 -3.756,3.756 -1.893,0 -3.459,-1.401 -3.718,-3.224 C 29.313,60.77 28.825,58.825 26.365,50.028 24.967,45.03 26.948,39.77 31.295,36.935 l 1.609,-1.05 c -3.937,1.905 -8.253,3.498 -12.124,4.241 -0.24,0.047 -0.478,0.069 -0.713,0.069 -0.088,0 -0.173,-0.018 -0.26,-0.023 l -6.729,19.896 c -0.03,0.086 -0.079,0.16 -0.123,0.234 -0.267,0.756 -0.832,1.404 -1.632,1.734 L 4.035,65.039 C 3.671,65.188 3.293,65.26 2.923,65.26 1.775,65.26 0.685,64.578 0.221,63.45 -0.394,61.959 0.317,60.252 1.808,59.637 l 7.288,-3.003 c 0.83,-0.342 1.72,-0.262 2.459,0.123 l 5.95,-17.595 c -0.556,-0.522 -0.967,-1.209 -1.122,-2.016 -0.391,-2.038 0.943,-4.006 2.98,-4.396 0.111,-0.022 0.223,-0.047 0.335,-0.07 l 1.629,-4.816 c -2.462,-1.379 -4.287,-3.838 -4.904,-6.674 -0.647,-2.972 0.072,-6.045 1.973,-8.43 2.209,-2.773 6.519,-4.464 10.265,-5.212 -0.392,1.027 -0.616,2.136 -0.616,3.298 0,1.551 0.388,3.011 1.063,4.3 -2.191,0.583 -4.225,1.525 -4.838,2.294 -0.634,0.796 -0.625,1.61 -0.507,2.153 0.167,0.769 0.662,1.446 1.293,1.766 1.849,0.939 2.588,3.2 1.649,5.049 -0.594,1.169 -1.716,1.89 -2.929,2.028 l -1.182,3.495 c 7.102,-2.181 14.762,-6.817 16.296,-8.841 0.91,-1.201 1.468,-2.358 1.65,-3.374 2.879,-0.971 5.138,-3.275 6.02,-6.171 0.706,1.109 1.192,2.363 1.421,3.712 0.394,2.342 0.177,6.043 -3.105,10.371 -0.236,0.312 -0.527,0.64 -0.856,0.977 l 26.338,31.309 c 1.335,1.589 1.13,3.958 -0.457,5.293 z M 37.504,17.718 c 3.841,0 6.956,-3.076 6.956,-6.87 0,-3.794 -3.114,-6.87 -6.956,-6.87 -3.841,0 -6.956,3.076 -6.956,6.87 0,3.794 3.116,6.87 6.956,6.87 z m 37.877,51.917 -2.439,-2.692 c -0.464,-0.512 -1.257,-0.55 -1.77,-0.086 -0.512,0.465 -0.551,1.256 -0.086,1.769 l 2.44,2.692 c 0.247,0.272 0.587,0.41 0.928,0.41 0.299,0 0.601,-0.107 0.841,-0.324 0.511,-0.466 0.551,-1.257 0.086,-1.769 z m -37.51,-6.011 -4.459,2.962 c -0.351,0.235 -0.811,0.194 -1.117,-0.099 l -0.886,-0.846 c -0.5,-0.477 -1.292,-0.459 -1.77,0.04 -0.478,0.501 -0.459,1.293 0.041,1.771 l 0.886,0.847 c 0.655,0.626 1.497,0.946 2.346,0.946 0.652,0 1.308,-0.188 1.887,-0.574 l 4.457,-2.962 c 0.576,-0.384 0.733,-1.16 0.351,-1.736 -0.385,-0.576 -1.163,-0.734 -1.736,-0.349 z"
+         style="fill:#db663a;fill-opacity:1" />
+    </g>
+  </g>
+</svg>
